@@ -1,0 +1,25 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.minha-imagem {
+    width: 75%;
+    height: auto; 
+}
+
+.lado-a-lado {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: space-between; /* Espaçamento entre as caixas */
+}
+
+.caixinha {
+    background-color: #fff; /* cor de fundo da caixa */
+    border: 1px solid #ccc; /* borda da caixa */
+    border-radius: 8px; /* bordas arredondadas */
+    padding: 20px; /* espaçamento interno da caixa */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* sombra para um efeito de profundidade */
+    width: calc(33.33% - 10px); /* Largura com ajuste para espaço */
+    margin: 5px; /* Espaçamento entre as caixas */
+}
